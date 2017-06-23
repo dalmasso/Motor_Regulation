@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Polytech\Desktop\POLYTECH\2 - SE4\Projet - Régulation Numérique\Discret_loic -I..\..\..\..\..\Users\Polytech\Desktop\POLYTECH\2 - SE4\Projet - Régulation Numérique\Discret_loic\cmsis_lib\include -I..\..\..\..\..\Users\Polytech\Desktop\POLYTECH\2 - SE4\Projet - Régulation Numérique -I..\..\..\..\..\Users\Polytech\Desktop\POLYTECH\2 - SE4\Projet - Régulation Numérique\Discret_loic\cmsis_lib -I..\..\..\..\..\Users\Polytech\Desktop\POLYTECH\2 - SE4\Projet - Régulation Numérique\Discret_loic\cmsis -I..\..\..\..\..\Users\Polytech\Desktop\POLYTECH\2 - SE4\Projet - Régulation Numérique\Discret_loic\cmsis_boot">
+      <target file="syscalls.o" lastModified="15ca149e18c">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="152d1310c0d"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15ca149e0c9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="152d1309619"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="15ca149df8d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="152d130a293"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15ca149e2bf">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="152d130a025"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15ca149e114">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1532daf5a60"/>
+      </target>
+      <target file="printf.o" lastModified="15ca149e070">
+         <source file="..\..\..\stdio\printf.c" lastModified="152d2291a94"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15ca149ddc6">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="152d1308aaf"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15ca149dceb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="152d130ba29"/>
+      </target>
+      <target file="main.o" lastModified="15ca149dea6">
+         <source file="..\..\..\main.c" lastModified="15ca149d738"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="15ca149dd42">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="152d130ac6d"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15ca149df16">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="152d130919b"/>
+      </target>
+      <target file="misc.o" lastModified="15ca149e1fb">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="152d132c080"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=test2.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\test2 -TC:\CooCox\CoIDE\configuration\ProgramData\test2/arm-gcc-link.ld -g">
+      <target file="test2.elf" lastModified="15ca149e584">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15ca149dceb"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="15ca149dd42"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15ca149ddc6"/>
+         <source file="..\obj\main.o" lastModified="15ca149dea6"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15ca149df16"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="15ca149df8d"/>
+         <source file="..\obj\printf.o" lastModified="15ca149e070"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15ca149e0c9"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15ca149e114"/>
+         <source file="..\obj\syscalls.o" lastModified="15ca149e18c"/>
+         <source file="..\obj\misc.o" lastModified="15ca149e1fb"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15ca149e2bf"/>
+      </target>
+   </processor>
+</history>
